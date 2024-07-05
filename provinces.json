@@ -1,0 +1,44 @@
+[
+    {
+      "label": "Koshi Province",
+      "value": "Koshi",
+      "nepali": "कोशी प्रदेश",
+      "id": 1
+    },
+    {
+      "label": "Madhesh Province",
+      "value": "Madhesh",
+      "nepali": "मधेश प्रदेश",
+      "id": 2
+    },
+    {
+      "label": "Bagmati Province",
+      "value": "Bagmati",
+      "nepali": "बागमती प्रदेश",
+      "id": 3
+    },
+    {
+      "label": "Gandaki Province",
+      "value": "Gandaki",
+      "nepali": "गण्डकी प्रदेश",
+      "id": 4
+    },
+    {
+      "label": "Lumbini Province",
+      "value": "Lumbini ",
+      "nepali": "लुम्बिनी प्रदेश",
+      "id": 5
+    },
+    {
+      "label": "Karnali Province",
+      "value": "Karnali",
+      "nepali": "कर्णाली प्रदेश",
+      "id": 6
+    },
+    {
+      "label": "Sudurpashchim Province",
+      "value": "Sudurpashchim",
+      "nepali": "सुदुरपश्चिम प्रदेश",
+      "id": 7
+    }
+]
