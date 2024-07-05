@@ -1,4 +1,4 @@
-JSON Lists of Municipalities of Nepal
+# JSON Lists of Municipalities of Nepal
 
 This repository contains JSON lists of municipalities in Nepal, organized by districts. Each municipality is associated with its corresponding district and has a unique ID.
 Sources
@@ -6,8 +6,8 @@ Sources
 Compiled with the help of ChatGPT, Google, and the Election Commission of Nepal. Please note that there may exist spelling and character errors in both Nepali and English formats.
 JSON Format
 
-The JSON data is structured as follows:
-
+## The JSON data is structured as follows:
+```json
 [
   {
     "label": "Lamki Chuha Municipality",
@@ -27,11 +27,12 @@ The JSON data is structured as follows:
   }
   // ... other municipalities
 ]
+```
 
-Districts
+## Districts
 
 The municipalities are grouped by districts, and each district is assigned a unique ID. Below is an example list of districts with IDs:
-
+```json
 [
   {
     "label": "Bhojpur",
@@ -56,11 +57,11 @@ The municipalities are grouped by districts, and each district is assigned a uni
   },
   // ... other districts
 ]
+```
+## Provinces
 
-Provinces
-
-The districts are grouped by provices.
-
+The districts are grouped by seven provinces.
+```json
 [
     {
       "label": "Koshi Province",
@@ -70,8 +71,8 @@ The districts are grouped by provices.
     },
     // ..... other provinces
 ]
-
-Usage
+```
+## Usage
 
 You can use this JSON data for various purposes such as data analysis, application development, and more. Ensure to handle the data with care, as there might be minor inaccuracies.
 Contribution
