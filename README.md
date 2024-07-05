@@ -1,7 +1,8 @@
 # JSON Lists of Municipalities of Nepal
 
 This repository contains JSON lists of municipalities in Nepal, organized by districts. Each municipality is associated with its corresponding district and has a unique ID.
-Sources
+
+## Sources
 
 Compiled with the help of ChatGPT, Google, and the Election Commission of Nepal. Please note that there may exist spelling and character errors in both Nepali and English formats.
 JSON Format
