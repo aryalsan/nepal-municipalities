@@ -1,0 +1,27 @@
+{
+  "name": "nepal-municipalities",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type" : "module",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryalsan/nepal-municipalities.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aryalsan/nepal-municipalities/issues"
+  },
+  "homepage": "https://github.com/aryalsan/nepal-municipalities#readme",
+  "description": ""
+}

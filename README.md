@@ -1,11 +1,31 @@
-# JSON Lists of Municipalities of Nepal
+# nepal-municipalities
 
-This repository contains JSON lists of municipalities in Nepal, organized by districts. Each municipality is associated with its corresponding district and has a unique ID.
+A lightweight NPM package with official JSON data of Nepal's **provinces**, **districts**, and **municipalities**.
 
-## Sources
+## Installation
 
-Compiled with the help of ChatGPT, Google, and the Election Commission of Nepal. Please note that there may exist spelling and character errors in both Nepali and English formats.
-JSON Format
+```bash
+npm install nepal-municipalities
+```
+
+## Usage
+You can use this Packages for various purposes such as data analysis, application development, and more. Ensure to handle the data with care, as there might be minor inaccuracies.
+
+With CommonJS:
+
+```JS
+const { provinces, districts, municipalities } = require('nepal-municipalities');
+
+console.log(provinces);
+```
+
+With ES Modules:
+
+```JS
+import { provinces, districts, municipalities } from 'nepal-municipalities';
+
+console.log(districts);
+```
 
 ## The JSON data is structured as follows:
 ```json
@@ -73,9 +93,10 @@ The districts are grouped by seven provinces.
     // ..... other provinces
 ]
 ```
-## Usage
+## Sources
 
-You can use this JSON data for various purposes such as data analysis, application development, and more. Ensure to handle the data with care, as there might be minor inaccuracies.
-Contribution
+Compiled with the help of ChatGPT, Google, and the Election Commission of Nepal. Please note that there may exist spelling and character errors in both Nepali and English formats.
+
+## Contribution
 
 Feel free to contribute to this repository. If you find any errors or have suggestions for improvement, please create an issue or submit a pull request.
